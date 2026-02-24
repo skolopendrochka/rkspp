@@ -16,24 +16,6 @@
 - Swagger (OpenAPI 3.0)
 - Docker
 
-## Структура проекта
-
-exam/
-├── chechulina-ingest/ # Ingest сервис
-│ ├── src/ # Исходный код
-│ └── pom.xml # Maven зависимости
-│
-└── chechulina-processor/ # Processor сервис
-├── src/ # Исходный код
-├── pom.xml # Maven зависимости
-├── docker-compose.yml # Docker конфигурация
-└── init-scripts/ # SQL скрипты
-├── postgres/
-│ └── 01_create_tables.sql
-└── clickhouse/
-└── 01_create_tables.sql
-
-
 ## Запуск проекта
 
 ### 1. Запуск инфраструктуры (Docker)
