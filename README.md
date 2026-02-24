@@ -101,12 +101,3 @@ text
 7. В поле "Тип файла" выбери **"Все файлы (*.*)"**
 8. Нажми **"Сохранить"**
 
----
-
-## **Загрузи README.md на GitHub:**
-
-```cmd
-cd C:\exam
-git add README.md
-git commit -m "Добавлен README.md"
-git push
